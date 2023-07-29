@@ -1,0 +1,46 @@
+.inputBox {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translate(-50%, -50%);
+  scale: 80%;
+}
+
+.numInput {
+  padding: 0.5rem 1rem;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 1.5rem;
+  text-align: right;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  outline: none;
+  font-size: 1.25rem;
+  caret-color: hsl(184, 14%, 56%);
+  color: hsl(183, 100%, 15%);
+  background: hsl(189, 41%, 97%);
+
+  &:focus {
+    outline: 2px solid hsl(172, 67%, 45%);
+  }
+}
+
+.label {
+  color: hsl(186, 14%, 43%);
+  font-size: 0.9rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

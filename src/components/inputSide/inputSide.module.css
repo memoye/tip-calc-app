@@ -1,0 +1,39 @@
+.btnsGrid {
+  /* width: fit-content; */
+  display: grid;
+  max-width: 320px;
+  grid-template-columns: repeat(3, 5.6rem);
+  align-content: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  & button {
+    font-size: 1.25rem;
+  }
+
+  & input {
+    padding: 0.2rem 0.2rem;
+    text-align: center;
+
+    &::placeholder {
+      color: hsl(183, 100%, 15%);
+    }
+  }
+}
+
+.inputSide {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.label {
+  color: hsl(186, 14%, 43%);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .btnsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,47 @@
+.tipsArea {
+  background: hsl(183, 100%, 15%);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.tip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  color: hsl(172, 67%, 45%);
+
+  & .label {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.labelTitle {
+  color: white;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+.freq {
+  color: hsl(184, 14%, 56%);
+  font-size: 0.8em;
+}
+
+.vals {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.resetBtn {
+  margin-top: 2rem;
+}

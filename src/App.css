@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  height: 100dvh;
+  width: 100vw;
+  background: hsl(185, 41%, 84%);
+  display: grid;
+  place-items: center;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+}
+
+.container {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  gap: 1.5rem;
+}
+
+.output {
+  min-width: 50%;
+  max-width: 320px;
+  /* height: 15rem; */
+}
+.logo {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hsl(183, 100%, 15%);
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .App {
+    overflow-x: hidden;
+  }
+
+  .container {
+    flex-direction: column;
+    width: unset;
+  }
+}
