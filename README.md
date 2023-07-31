@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Click to see solution](https://admirable-cuchufli-089997.netlify.app/)
+- [Visit demo!](https://admirable-cuchufli-089997.netlify.app/)
 <!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
 
 ## My process
