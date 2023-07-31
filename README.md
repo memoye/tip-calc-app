@@ -31,11 +31,10 @@ Users should be able to:
 ![Large and medium devices](./src/assets/myDesktopSolution.png)
 ![Small device](./src/assets/mySmallDeviceSolution.png)
 
-<!--
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- Live Site URL: [Click to see solution](https://admirable-cuchufli-089997.netlify.app/)
+<!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
 
 ## My process
 
