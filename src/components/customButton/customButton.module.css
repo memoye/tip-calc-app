@@ -12,6 +12,11 @@ button {
   }
 }
 
+button:hover {
+  background: hsl(172, 65%, 72%);
+  color: hsl(183, 100%, 15%);
+}
+
 .normal {
   color: white;
   background: hsl(183, 100%, 15%);
@@ -20,6 +25,11 @@ button {
     background: hsl(172, 67%, 45%);
     color: hsl(183, 100%, 15%);
   }
+}
+
+.normal:focus {
+  background: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
 }
 
 .active {
@@ -41,4 +51,13 @@ button {
       color: hsl(183, 100%, 15%);
     }
   }
+}
+
+.reset:disabled {
+  background: hsla(172, 67%, 45%, 0.355);
+}
+
+.reset:disabled:hover {
+  background: hsla(172, 67%, 45%, 0.355);
+  color: hsl(183, 100%, 15%);
 }

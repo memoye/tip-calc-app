@@ -21,6 +21,18 @@
   }
 }
 
+.btnsGrid button {
+  font-size: 1.25rem;
+}
+.btnsGrid input {
+  padding: 0.2rem 0.2rem;
+  text-align: center;
+}
+
+.btnsGrid input::placeholder {
+  color: hsl(183, 100%, 15%);
+}
+
 .inputSide {
   display: flex;
   flex-direction: column;

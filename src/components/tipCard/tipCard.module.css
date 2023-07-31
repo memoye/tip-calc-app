@@ -21,6 +21,11 @@
   }
 }
 
+.tip .label {
+  display: flex;
+  flex-direction: column;
+}
+
 .labelTitle {
   color: white;
 }

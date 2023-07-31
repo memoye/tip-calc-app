@@ -12,9 +12,9 @@ const CustomInput = (props) => {
 
     return (
         <>
-            { label ? <label className={ styles.label } htmlFor="num">{ label }</label> : "" }
+            { label ? <label className={ styles.label } htmlFor="num">{ label }</label> : null }
             <div className={ styles.inputBox }>
-                <img className={ styles.icon } src={ label === "Bill" ? dollar : label === "Number of People" ? person : "" } alt={ label } />
+                <img className={ styles.icon } src={ label === "Bill" ? dollar : label === "Number of People" ? person : null } alt={ label } />
                 <input onInput={ (e) => {
                     label === "Bill" ?
                         dispatch({ type: "SET_BILL", payload: Number(e.target.value) })
