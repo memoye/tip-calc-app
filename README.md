@@ -33,9 +33,8 @@ Users should be able to:
 
 ### Links
 
-- View [my solution](https://www.frontendmentor.io/solutions/tip-calculator-app-gKJCg6ZXJR) on Frontend Mentor
-- Visit [live demo](https://admirable-cuchufli-089997.netlify.app/)!
-<!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- You can see [my solution here](https://www.frontendmentor.io/solutions/tip-calculator-app-gKJCg6ZXJR)
+- View the [live site demo here](https://tip-calc-app-xi.vercel.app/)
 
 ## My process
 
