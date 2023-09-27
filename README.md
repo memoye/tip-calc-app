@@ -33,7 +33,8 @@ Users should be able to:
 
 ### Links
 
-- [Visit demo!](https://admirable-cuchufli-089997.netlify.app/)
+- View [my solution](https://www.frontendmentor.io/solutions/tip-calculator-app-gKJCg6ZXJR) on Frontend Mentor
+- Visit [live demo](https://admirable-cuchufli-089997.netlify.app/)!
 <!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
 
 ## My process
