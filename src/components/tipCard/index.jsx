@@ -29,6 +29,7 @@ const TipCard = () => {
                 <CustomButton
                     label={ "RESET" }
                     dispatch={ dispatch }
+                    customStyle={ state.reset ? styles.transparent : '' }
                 />
             </div>
 

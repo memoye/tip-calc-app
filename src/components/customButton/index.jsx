@@ -5,7 +5,7 @@ import { TipContext } from "../../contexts/TipProvider"
 const CustomButton = (props) => {
 
     const { state } = useContext(TipContext)
-    const { tip, label, percentage, dispatch } = props
+    const { tip, label, percentage, dispatch, customStyle } = props
 
     return (
         <>
@@ -13,7 +13,7 @@ const CustomButton = (props) => {
                 percentage === undefined ? dispatch({ type: 'RESET_ALL', payload: percentage })
                     : dispatch({ type: 'SET_PERCENT', payload: Number(percentage) / 100 })
             } }
-                className={ `${tip ? styles.normal : styles.reset} ${(state.percent * 100) === percentage && styles.active}` }
+                className={ `${tip ? styles.normal : styles.reset} ${(state.percent * 100) === percentage && styles.active} ${customStyle}` }
             >
 
                 { tip ? tip : label }

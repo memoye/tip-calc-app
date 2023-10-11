@@ -50,3 +50,7 @@
 .resetBtn {
   margin-top: 2rem;
 }
+
+.transparent {
+  opacity: 0.5;
+}
