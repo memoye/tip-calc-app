@@ -29,7 +29,7 @@ function App() {
 
           </div>
         </main >
-        <footer class="attribution">
+        <footer className="attribution">
           Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8"
             target="_blank">Frontend Mentor</a>.
           Coded with ❤️‍🩹 by <a href="https://github.com/memoye">Memoye</a>.

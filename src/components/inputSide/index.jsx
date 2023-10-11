@@ -25,6 +25,7 @@ const InputSide = () => {
                     label={ "Bill" }
                     placeholder={ 0 }
                     dispatch={ dispatch }
+                    val={ state.bill === 0 || state.reset ? '' : Number(state.bill) }
                 />
             </div>
             <div className={ styles.side }>
@@ -45,6 +46,7 @@ const InputSide = () => {
                         <CustomInput
                             placeholder={ "Custom" }
                             dispatch={ dispatch }
+                            val={ state.percent === 0 || state.reset ? '' : Number(state.percent) * 100 }
                         />
                     </div>
                 </div>
@@ -55,6 +57,7 @@ const InputSide = () => {
                     label={ "Number of People" }
                     placeholder={ 0 }
                     dispatch={ dispatch }
+                    val={ state.people === 0 || state.reset ? '' : Number(state.people) }
                 />
             </div>
         </div>
