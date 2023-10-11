@@ -1,4 +1,5 @@
 .tipsArea {
+  box-sizing: border-box;
   background: hsl(183, 100%, 15%);
   border-radius: 0.5rem;
   padding: 1rem;

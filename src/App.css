@@ -23,7 +23,7 @@
   padding: 1.5rem;
   display: flex;
   justify-content: space-between;
-
+  box-sizing: border-box;
   width: 650px;
   gap: 1.5rem;
 }
