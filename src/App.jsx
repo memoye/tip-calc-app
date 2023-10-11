@@ -10,12 +10,12 @@ function App() {
   return (
     <>
       <TipProvider>
-        <div className='App'>
+        <main className='App'>
           <div>
 
-            <div className='logo'>
+            <h1 className='logo'>
               <img src={ logo } alt="Logo" />
-            </div>
+            </h1>
 
             <div className='container'>
               <div className='inputSide'>
@@ -28,7 +28,12 @@ function App() {
             </div>
 
           </div>
-        </div >
+        </main >
+        <footer class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8"
+            target="_blank">Frontend Mentor</a>.
+          Coded with ❤️‍🩹 by <a href="https://github.com/memoye">Memoye</a>.
+        </footer>
       </TipProvider>
     </>
   )

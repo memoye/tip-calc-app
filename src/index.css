@@ -1,3 +1,26 @@
 body {
   background: hsl(185, 41%, 84%);
+  overflow-x: hidden;
+}
+
+.attribution {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 11px;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  margin-block: 2rem 1.5rem;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+  font-weight: bold;
+  outline: 2px dashed transparent;
+  transition: outline 0.3s;
+}
+
+.attribution a:hover {
+  outline-color: hsl(228, 45%, 44%);
 }

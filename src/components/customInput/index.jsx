@@ -19,7 +19,8 @@ const CustomInput = (props) => {
             { label ? <label className={ styles.label } htmlFor="num">{ label }</label> : null }
 
             <div className={ styles.inputBox }>
-                <img className={ styles.icon } src={ label === "Bill" ? dollar : label === "Number of People" ? person : null } alt={ label } />
+                { label &&
+                    <img className={ styles.icon } src={ label === "Bill" ? dollar : label === "Number of People" ? person : null } alt={ 'input icon' } /> }
                 <input
                     onChange={ handleChange }
                     onInput={ (e) => {
