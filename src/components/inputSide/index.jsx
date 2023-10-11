@@ -31,7 +31,7 @@ const InputSide = () => {
                 <p className={ styles.label }>Select Tip %</p>
                 <div className={ styles.btnsGrid }>
                     {
-                        btns.map((btn, index) => {
+                        btns.map((btn) => {
                             return (
                                 <CustomButton
                                     key={ btn.tip }
