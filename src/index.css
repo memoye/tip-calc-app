@@ -15,12 +15,12 @@ body {
 
 .attribution a {
   text-decoration: none;
-  color: hsl(228, 45%, 44%);
+  color: rgb(199, 67, 27);
   font-weight: bold;
   outline: 2px dashed transparent;
   transition: outline 0.3s;
 }
 
 .attribution a:hover {
-  outline-color: hsl(228, 45%, 44%);
+  outline-color: rgb(199, 67, 27) s;
 }
