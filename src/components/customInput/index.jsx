@@ -9,7 +9,7 @@ const CustomInput = (props) => {
     const { label, placeholder, dispatch } = props
     const { state } = useContext(TipContext)
 
-    const [inputVal, setInputVal] = useState(0)
+    const [inputVal, setInputVal] = useState(null)
     function handleChange(e) {
         setInputVal(e.target.value)
     }
